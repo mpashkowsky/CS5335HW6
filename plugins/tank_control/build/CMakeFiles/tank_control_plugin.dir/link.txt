@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++11  -shared -Wl,-soname,libtank_control_plugin.so -o libtank_control_plugin.so CMakeFiles/tank_control_plugin.dir/tank_control.cc.o   -L/usr/lib/x86_64-linux-gnu/gazebo-11/plugins 
